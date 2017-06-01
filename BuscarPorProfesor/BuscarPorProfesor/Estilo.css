@@ -1,0 +1,37 @@
+﻿body{
+    margin:auto;
+    width:1000px;
+    border:2px solid black;
+    font-family:Arial;
+   
+}
+#contenedor{
+    margin-left:5%;
+    margin-right:5%;
+    padding:5%;
+    
+}
+
+#nombre{
+    width:40%;
+    border:2px solid black;
+    
+}
+table{
+  border: black 2px solid;
+}
+#contenido{
+    margin-top:10px;
+}
+td{
+    width:2%;
+    margin:3px;
+}
+tr{
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+}
+
+
+
+
