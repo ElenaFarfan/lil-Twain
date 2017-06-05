@@ -1,0 +1,6 @@
+c:\users\alumno\documents\visual studio 2013\Projects\lilTwain\lilTwain\bin\lilTwain.dll.config
+c:\users\alumno\documents\visual studio 2013\Projects\lilTwain\lilTwain\bin\lilTwain.dll
+c:\users\alumno\documents\visual studio 2013\Projects\lilTwain\lilTwain\bin\lilTwain.pdb
+c:\users\alumno\documents\visual studio 2013\Projects\lilTwain\lilTwain\obj\Debug\lilTwain.csprojResolveAssemblyReference.cache
+c:\users\alumno\documents\visual studio 2013\Projects\lilTwain\lilTwain\obj\Debug\lilTwain.dll
+c:\users\alumno\documents\visual studio 2013\Projects\lilTwain\lilTwain\obj\Debug\lilTwain.pdb

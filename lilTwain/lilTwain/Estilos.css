@@ -1,0 +1,117 @@
+﻿body {
+            font-family:Arial;
+            background-color:#42A5F5;
+        }
+        #superVBackground{
+            background-color:#1565C0
+;
+        }
+        #alumno{
+            float:left;
+        }
+        #profile {
+            height:150px;
+            width:150px;
+            margin-left:50px;
+            margin-top:20px;
+            box-shadow: 0px 30px 40px rgba(0,0,0,.1);
+        }
+        #apodo{
+            margin-left:50px;
+            margin-bottom:100px;
+        }
+        #buscador{
+            margin-top:200px;
+            border:double;
+            padding:50px;
+            border-color:#FFFFFF;
+            clear:both;
+            background-color:#9FA8DA;
+            margin-left:30px;
+            margin-right:30px;
+
+        }
+        #alumno {
+            margin-top:20px;
+        }
+        #porCurso {
+            height:200px;
+            width:200px;
+            margin-left:100px;
+            
+        }
+        #porProfesor{
+            height:200px;
+            width:200px;
+            margin-left:300px;
+        }
+        #history {
+            height:200px;
+            width:200px;
+            margin-left:300px;
+        }
+
+        .tabs {
+            width:100%;
+            display:inline-block;
+
+        }
+
+        #contenidoDeCursos {
+            float:right;
+            margin-right: 100px;
+        }
+
+
+    /*----- Tab Links -----*/
+    /* Clearfix */
+    .tab-links:after {
+        display:block;
+        clear:both;
+        content:'';
+    }
+ 
+    .tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    }
+ 
+        .tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        }
+ 
+        .tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        }
+ 
+    li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+    .tab-content {
+        padding:15px;
+        border-radius:3px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#fff;
+        width: 1000px;
+        height:200px;
+    }
+ 
+        .tab {
+            display:none;
+        }
+ 
+        .tab.active {
+            display:block;
+        }
