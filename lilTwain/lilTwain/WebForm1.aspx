@@ -12,8 +12,8 @@
     <div id="superVBackground">
     <div id="contenedor">
         <div id="alumno">
-            <img src="http://rs1259.pbsrc.com/albums/ii544/noerpamoengkas/Ardi%20and%20Blog/Information%20and%20Computer%20Technology/facebook-profile-image.jpg~c200" alt="error al mostar imagen" id="profile" />
-            <h3 id="apodo">sergio,hermoza</h3>
+            <img src="http://www.swagger.mx/media/bi/styles/xlarge/public/images/2016/07/foto-perfil-facebook.jpg" alt="error al mostar imagen" id="profile" />
+            <h3 id="apodo">Sergio Hermoza</h3>
 
         </div>
         <aside id="contenidoDeCursos">
@@ -48,21 +48,24 @@
                 </div>
             </div>
         </aside>
-        cs</div>
-    
-    <div id="buscador">
-        <img src="https://www.iconfinder.com/data/icons/school-subjects/256/Literature-512.png" id="porCurso"/>
-        <img src="https://image.flaticon.com/icons/svg/65/65882.svg" id="porProfesor" />
-        <img src="https://image.flaticon.com/icons/svg/61/61122.svg" id="history"/>
+        <div id="buscador">
+        <section id="izquierda">
+            <img src="https://www.iconfinder.com/data/icons/school-subjects/256/Literature-512.png" width="100"/>
+            <p>Buscar por curso</p>
+        </section>
+        <section id="derecha">
+            <img src="https://image.flaticon.com/icons/svg/61/61122.svg"width="100" />
+            <p>Buscar por profesor</p>
+        </section>
+        <section id="centro">
+             <img src="https://image.flaticon.com/icons/svg/65/65882.svg"width="100" />
+            <p>Historial</p>
+        </section>
         
+      </div>
         </div>
-        <div>
-            <p>
-                <br>
-                <br>
-                <br>
-            </p>
-        </div>
+    
+    
 </div>
 </body>
 </html>
