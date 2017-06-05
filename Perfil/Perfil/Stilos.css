@@ -1,0 +1,26 @@
+﻿body{
+    margin-top:60px;
+}
+
+
+#contenedor {
+    width: 600px;
+    margin: auto;
+    height: 400px;
+    border: 3px solid blue;
+    background-image:url("http://www.chainmen.com/blog/f_p_p/16_9/0006_2_power_point_16_9_panoramicas_full_hd.jpg" );
+}
+
+
+#imagen{
+    text-align:center;
+
+}
+#cuerpo{
+    margin-top:40px;
+    margin-left:70px;
+}
+#b1{
+    float:right;
+    margin-right:20%;
+}
