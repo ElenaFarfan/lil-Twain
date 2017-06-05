@@ -1,0 +1,11 @@
+<!doctype  html>
+<html>
+	<head>
+		<title> Elena Farfan </title>
+	</head>
+	<body>
+	<h1> MI BIOGRAFIA </h1>
+	<img src= "c:\User\alumno\Documents\GitHub\lil-Twain"/>
+	<p> naci el 18 de agosto en la ciudad de Cusco</>
+	</body>
+</html>
