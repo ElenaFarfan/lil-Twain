@@ -9,11 +9,13 @@
     <link href="Estilos.css" rel="stylesheet" />
 </head>
 <body>
+    <form id="form1" runat="server">
     <div id="superVBackground">
     <div id="contenedor">
         <div id="alumno">
             <img src="http://www.swagger.mx/media/bi/styles/xlarge/public/images/2016/07/foto-perfil-facebook.jpg" alt="error al mostar imagen" id="profile" />
             <h3 id="apodo">Sergio Hermoza</h3>
+            <li><a href="Perfill.aspx">Editar Perfil</a></li>
 
         </div>
         <aside id="contenidoDeCursos">
@@ -50,22 +52,26 @@
         </aside>
         <div id="buscador">
         <section id="izquierda">
-            <img src="https://www.iconfinder.com/data/icons/school-subjects/256/Literature-512.png" width="100"/>
+            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="https://www.iconfinder.com/data/icons/school-subjects/256/Literature-512.png" width="100" Height="100" />
+            
             <p>Buscar por curso</p>
         </section>
         <section id="derecha">
-            <img src="https://image.flaticon.com/icons/svg/61/61122.svg"width="100" />
+            <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="https://image.flaticon.com/icons/svg/61/61122.svg"  width="100" Height="100"/>
+            
             <p>Buscar por profesor</p>
         </section>
         <section id="centro">
-             <img src="https://image.flaticon.com/icons/svg/65/65882.svg"width="100" />
+            <asp:ImageButton  ID="ImageButton3" runat="server" ImageUrl="https://image.flaticon.com/icons/svg/65/65882.svg" width="100" Height="100"/>
+             
             <p>Historial</p>
         </section>
-        
+           
       </div>
         </div>
     
     
 </div>
+        </form>
 </body>
 </html>

@@ -65,14 +65,30 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BuscarPorProfesor.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Estilos.css" />
+    <Content Include="Perfill.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuscarPorProfesor.aspx.cs">
+      <DependentUpon>BuscarPorProfesor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BuscarPorProfesor.aspx.designer.cs">
+      <DependentUpon>BuscarPorProfesor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Perfill.aspx.cs">
+      <DependentUpon>Perfill.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Perfill.aspx.designer.cs">
+      <DependentUpon>Perfill.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
