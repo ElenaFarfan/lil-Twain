@@ -10,68 +10,70 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <div id="superVBackground">
+    
     <div id="contenedor">
         <div id="alumno">
             <img src="http://www.swagger.mx/media/bi/styles/xlarge/public/images/2016/07/foto-perfil-facebook.jpg" alt="error al mostar imagen" id="profile" />
             <h3 id="apodo">Sergio Hermoza</h3>
-            <li><a href="Perfill.aspx">Editar Perfil</a></li>
+          <a href="Perfill.aspx">Editar Perfil</a>
 
         </div>
-        <aside id="contenidoDeCursos">
-            <div class="tabs">
-                <ul class="tab-links">
-                    <li class="active"><a href="#tab1">ciclo 2017-01</a></li>
-                    <li><a href="#tab2">ciclo 2017-00</a></li>
-                    <li><a href="#tab3">ciclo 2016-02</a></li>
-                    <li><a href="#tab4">ciclo 2016-01</a></li>
-                </ul>
+        <section id="cuerpo">        
+            <aside id="contenidoDeCursos">
+                <div class="tabs">
+                    <ul class="tab-links">
+                        <li class="active"><a href="#tab1">ciclo 2017-01</a></li>
+                        <li><a href="#tab2">ciclo 2017-00</a></li>
+                        <li><a href="#tab3">ciclo 2016-02</a></li>
+                        <li><a href="#tab4">ciclo 2016-01</a></li>
+                    </ul>
 
-                <div class="tab-content">
-                    <div id="tab1" class="tab active">
-                        <p>ciclo 2017-01 content goes here!</p>
-                        <p>"links al los cursos"</p>
-                    </div>
+                    <div class="tab-content">
+                        <div id="tab1" class="tab active">
+                            <p>ciclo 2017-01 content goes here!</p>
+                            <p>"links al los cursos"</p>
+                        </div>
 
-                    <div id="tab2" class="tab">
-                        <p>ciclo 2017-00 content goes here!</p>
-                        <p>...</p>
-                    </div>
+                        <div id="tab2" class="tab">
+                            <p>ciclo 2017-00 content goes here!</p>
+                            <p>...</p>
+                        </div>
 
-                    <div id="tab3" class="tab">
-                        <p>ciclo 2016-02 content goes here!</p>
-                        <p>...</p>
-                    </div>
+                        <div id="tab3" class="tab">
+                            <p>ciclo 2016-02 content goes here!</p>
+                            <p>...</p>
+                        </div>
 
-                    <div id="tab4" class="tab">
-                        <p>ciclo 2016-00 content goes here!</p>
-                        <p>...</p>
+                        <div id="tab4" class="tab">
+                            <p>ciclo 2016-00 content goes here!</p>
+                            <p>...</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </aside>
-        <div id="buscador">
-        <section id="izquierda">
-            <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="https://www.iconfinder.com/data/icons/school-subjects/256/Literature-512.png" width="100" Height="100" />
+            </aside>
+            <div id="buscador">
+                <section id="izquierda">
+                    <asp:ImageButton ID="ImageButton1" runat="server" ImageUrl="https://www.iconfinder.com/data/icons/school-subjects/256/Literature-512.png" width="100" Height="100" />
             
-            <p>Buscar por curso</p>
-        </section>
-        <section id="derecha">
-            <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="https://image.flaticon.com/icons/svg/61/61122.svg"  width="100" Height="100"/>
+                    <p>Buscar por curso</p>
+                </section>
+                <section id="derecha">
+                    <asp:ImageButton ID="ImageButton2" runat="server" ImageUrl="https://image.flaticon.com/icons/svg/61/61122.svg"  width="100" Height="100"/>
             
-            <p>Buscar por profesor</p>
-        </section>
-        <section id="centro">
-            <asp:ImageButton  ID="ImageButton3" runat="server" ImageUrl="https://image.flaticon.com/icons/svg/65/65882.svg" width="100" Height="100"/>
+                    <p>Buscar por profesor</p>
+                </section>
+                <section id="centro">
+                    <asp:ImageButton  ID="ImageButton3" runat="server" ImageUrl="https://image.flaticon.com/icons/svg/65/65882.svg" width="100" Height="100"/>
              
-            <p>Historial</p>
-        </section>
+                    <p>Historial</p>
+                </section>
            
-      </div>
-        </div>
+            </div>
+         </section>
+    </div>
     
     
-</div>
+
         </form>
 </body>
 </html>

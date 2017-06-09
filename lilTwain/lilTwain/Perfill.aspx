@@ -26,7 +26,7 @@
                 <br/>
             </section> 
     
-        <button id="b1" type="button">Finalizar</button>
+        <button id="b1" type="button"><a href="WebForm1.aspx">Finalizar</a></button>
     
             
         </section>

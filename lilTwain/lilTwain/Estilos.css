@@ -2,82 +2,80 @@
             font-family:Arial;
            
         }
-        #superVBackground{
-            background-color:#1565C0
-;
-        }
-        #alumno{
-            float:left;
-        }
-        #profile {
+#contenedor {
+    background-color: #1a75ff;
+    margin:auto;
+}
+#alumno {
+    float: left;
+    width: 20%;
+    margin: 3%;
+    background-color: palevioletred;
+    padding-left:5px;
+    
+}
+#cuerpo{
+    margin-left:25%; 
+    padding:5%;
+
+}
+#profile {
             height:150px;
             width:150px;
             margin-left:50px;
             margin-top:20px;
             box-shadow: 0px 30px 40px rgba(0,0,0,.1);
         }
-        #apodo{
+#apodo{
             margin-left:50px;
             margin-bottom:100px;
         }
-        #buscador{
-            margin-top:200px;
-            border:double;
-            padding:50px;
-            border-color:#FFFFFF;
-            clear:both;
-            background-color:#9FA8DA;
-            margin-left:20%;
-            margin-right:5%;
+#buscador{
+    margin:10px;
+    border-color:#FFFFFF;  
+    background-color:#9FA8DA;    
+    padding:5px;
 
-        }
-        #alumno {
-            margin-top:20px;
-        }
-        #porCurso {
+}
+
+#porCurso {
             height:200px;
             width:200px;
             margin-left:100px;
             
         }
-        #porProfesor{
+#porProfesor{
             height:200px;
             width:200px;
             margin-left:300px;
         }
-        #history {
+#history {
             height:200px;
             width:200px;
             margin-left:300px;
         }
-
-        .tabs {
+.tabs {
             width:100%;
             display:inline-block;
+            
 
         }
-
-        #contenidoDeCursos {
-            float:right;
-            margin-right: 100px;
-        }
-
-
-    /*----- Tab Links -----*/
-    /* Clearfix */
-    .tab-links:after {
-        display:block;
-        clear:both;
-        content:'';
-    }
- 
-    .tab-links li {
+#contenidoDeCursos{
+    margin:10px;
+}
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+    display: block;
+    clear: both;
+    content: '';
+} 
+.tab-links li {
         margin:0px 5px;
         float:left;
         list-style:none;
-    }
- 
-        .tab-links a {
+    } 
+.tab-links a {
             padding:9px 15px;
             display:inline-block;
             border-radius:3px 3px 0px 0px;
@@ -86,33 +84,29 @@
             font-weight:600;
             color:#4c4c4c;
             transition:all linear 0.15s;
-        }
- 
-        .tab-links a:hover {
+        } 
+.tab-links a:hover {
             background:#a7cce5;
             text-decoration:none;
-        }
- 
-    li.active a, li.active a:hover {
+        } 
+li.active a, li.active a:hover {
         background:#fff;
         color:#4c4c4c;
     }
  
     /*----- Content of Tabs -----*/
-    .tab-content {
+.tab-content {
         padding:15px;
         border-radius:3px;
         box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
         background:#fff;
-        width: 1000px;
+        
         height:200px;
-    }
- 
-        .tab {
+    } 
+.tab {
             display:none;
-        }
- 
-        .tab.active {
+        } 
+.tab.active {
             display:block;
         }
 #buscador #izquierda{
@@ -127,6 +121,8 @@
     margin-left:31%;
     margin-right:31%;
 }
+
+/*----- Perfil -----*/
 #perfil{
     width: 600px;
     margin: auto;
@@ -134,8 +130,6 @@
     border: 3px solid red;
     background-color:#1E90FF;
 }
-
-
 #contenido #imagen{
     text-align:center;
 
@@ -149,13 +143,13 @@
     margin-right:20%;
 }
 
+/*-----Buscar por profesor -----*/
 #buscarXprofe{
     margin-left:5%;
     margin-right:5%;
     padding:5%;
     
 }
-
 #nombre{
     width:40%;
     border:2px solid black;
