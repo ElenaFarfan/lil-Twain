@@ -70,7 +70,7 @@
     <Content Include="Estilos.css" />
     <Content Include="Perfill.aspx" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="index.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuscarPorProfesor.aspx.cs">
@@ -91,12 +91,12 @@
       <DependentUpon>Perfill.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
