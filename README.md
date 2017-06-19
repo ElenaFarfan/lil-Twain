@@ -1,14 +1,16 @@
 # LIL TWAIN
 
-El proyecto  **LIL TWAIN **
+El proyecto  ** LIL TWAIN **  
 
+   
+   ## Propuesta de valor 
+  _Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad_  
+  
+   ## Publico Objetivo 
+   
 
-##Propuesta de valor## 
 ## Integrantes
 
-1. asdas
-2. asdasd
-3. 
 
 *Italic characters* 
 _Italic characters_
@@ -16,3 +18,9 @@ _Italic characters_
 __bold characters__
 ~~strikethrough text~~
 
+* Item 1
+* Item 2
+* Item 3
+  * Item 3a
+  * Item 3b
+  * Item 3c 
