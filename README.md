@@ -1,13 +1,18 @@
-# lil-Twain
+# LIL TWAIN
 
-Este **proyecto** trata de ....
+El proyecto  **LIL TWAIN **
 
+
+##Propuesta de valor## 
 ## Integrantes
-
-* Juan
-* Jose
-* Maria
 
 1. asdas
 2. asdasd
-3. asd asd
+3. 
+
+*Italic characters* 
+_Italic characters_
+**bold characters**
+__bold characters__
+~~strikethrough text~~
+
