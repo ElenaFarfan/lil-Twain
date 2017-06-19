@@ -1,6 +1,0 @@
-C:\Users\alumno\Desktop\Proyecto\Profesor\Profesor\bin\Profesor.dll.config
-C:\Users\alumno\Desktop\Proyecto\Profesor\Profesor\bin\Profesor.dll
-C:\Users\alumno\Desktop\Proyecto\Profesor\Profesor\bin\Profesor.pdb
-C:\Users\alumno\Desktop\Proyecto\Profesor\Profesor\obj\Debug\Profesor.csprojResolveAssemblyReference.cache
-C:\Users\alumno\Desktop\Proyecto\Profesor\Profesor\obj\Debug\Profesor.dll
-C:\Users\alumno\Desktop\Proyecto\Profesor\Profesor\obj\Debug\Profesor.pdb

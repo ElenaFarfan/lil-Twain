@@ -1,6 +1,0 @@
-E:\BuscarPorProfesor\BuscarPorProfesor\bin\BuscarPorProfesor.dll.config
-E:\BuscarPorProfesor\BuscarPorProfesor\bin\BuscarPorProfesor.dll
-E:\BuscarPorProfesor\BuscarPorProfesor\bin\BuscarPorProfesor.pdb
-E:\BuscarPorProfesor\BuscarPorProfesor\obj\Debug\BuscarPorProfesor.csprojResolveAssemblyReference.cache
-E:\BuscarPorProfesor\BuscarPorProfesor\obj\Debug\BuscarPorProfesor.dll
-E:\BuscarPorProfesor\BuscarPorProfesor\obj\Debug\BuscarPorProfesor.pdb
