@@ -10,7 +10,7 @@ El proyecto  ** LIL TWAIN **  es una pagina web
    #### Publico Objetivo 
    
 * ## Integrantes:
-      *TOVAR MAÑUECO, Marleni 
+      * TOVAR MAÑUECO, Marleni 
 
 
 *Italic characters* 
