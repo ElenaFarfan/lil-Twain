@@ -10,8 +10,9 @@ body {
 	overflow-x:hidden; 
 	overflow-y:scroll;
 }
+/*------main page-------*/
 #contenedor {
-    background-color: #1a75ff;
+    background-image: Imagenes/fondo1.jpg;
     margin:auto;
 }
 #alumno {
