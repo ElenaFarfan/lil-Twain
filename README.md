@@ -1,12 +1,12 @@
-# LIL TWAIN
+#  (LIL TWAIN)
 
-El proyecto  ** LIL TWAIN **  
+El proyecto  ** LIL TWAIN **  es una pagina web 
 
    
-   ## Propuesta de valor 
-  _Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad_  
+ * #### Propuesta de valor 
+    *_Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad_  
   
-   ## Publico Objetivo 
+   #### Publico Objetivo 
    
 
 ## Integrantes
