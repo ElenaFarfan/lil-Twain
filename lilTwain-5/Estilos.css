@@ -118,17 +118,27 @@ li.active a, li.active a:hover {
 .tab.active {
             display:block;
         }
+
 #buscador #izquierda{
     float:left;
     width:30%;
+    text-align:center;
+    border:1px solid red;
+
 }
 #buscador #derecha{
     float:right;
     width:30%;
+    text-align:center;
+     border:1px solid red;
+
 }
 #buscador #centro{
     margin-left:31%;
     margin-right:31%;
+    text-align:center;
+     border:1px solid red;
+
 }
 
 /*----- Perfil -----*/
@@ -162,7 +172,8 @@ li.active a, li.active a:hover {
 #nombre{
     width:40%;
     border:2px solid black;
-    
+    height:20px;
+    webkit-border-radius: 10px;
 }
 table{
   border: black 2px solid;
@@ -285,7 +296,7 @@ header{
 	
 		
 }
-#editar{
+.editar{
 	width:40%;
 	bolder:radius 1px:
 }
