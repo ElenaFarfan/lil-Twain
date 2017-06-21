@@ -1,15 +1,13 @@
 #  LIL TWAIN
 
-El proyecto  ** LIL TWAIN **  es una pagina web 
+El proyecto **LIL TWAIN** es una pagina web 
 
    
- * #### Propuesta de valor 
- 
-    ** Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad**
-  
-   #### Publico Objetivo 
-   
-* ## Integrantes:
+ #### I) Propuesta de valor 
+	 Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad
+ #### II)Publico Objetivo 
+	  El proyecto lIL TWAIN Esta dirigido especificamente a estudiantes de la Universidad San Ignacio de Loyola
+ #### III) Integrantes:
 *
       1.- FARFAN CESPEDES, NELLY ELENA
       2.- JAVIER FLORES, KENYO
