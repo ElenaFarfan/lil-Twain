@@ -10,7 +10,12 @@ El proyecto  ** LIL TWAIN **  es una pagina web
    #### Publico Objetivo 
    
 * ## Integrantes:
-      * TOVAR MAÑUECO, Marleni 
+*
+      1.- FARFAN CESPEDES, NELLY ELENA
+      2.- JAVIER FLORES, KENYO
+      3.- HERMOZA QUIÑONES, SERGIO ALONSO
+      4.- PONCE DE LEON ROJAS, CHRISTIAN ARTURO MAC
+      5.- TOVAR MAÑUECO, MARLENI
 
 
 *Italic characters* 
