@@ -2,29 +2,25 @@
 
 El proyecto **LIL TWAIN** es una pagina web 
 
-   
- #### I) Propuesta de valor 
-	 Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad
- #### II)Publico Objetivo 
-	  El proyecto lIL TWAIN Esta dirigido especificamente a estudiantes de la Universidad San Ignacio de Loyola
- #### III) Integrantes:
+ ### III) INTEGRANTES:
 *
       1.- FARFAN CESPEDES, NELLY ELENA
       2.- JAVIER FLORES, KENYO
       3.- HERMOZA QUIÑONES, SERGIO ALONSO
       4.- PONCE DE LEON ROJAS, CHRISTIAN ARTURO MAC
       5.- TOVAR MAÑUECO, MARLENI
+ 
+ ### I) MISION 
+ 	Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad 
 
+ ### I) Propuesta de valor 
+ 
+	 Disminuir la incertidumbre de saber la estrategia de enseñanza de cada docente en los procesos de matricula. 
 
-*Italic characters* 
-_Italic characters_
-**bold characters**
-__bold characters__
-~~strikethrough text~~
+ ### II)Publico Objetivo 
+ 
+	  El proyecto lIL TWAIN Esta dirigido especificamente a estudiantes de la Universidad San Ignacio de Loyola
+	  
+### ) ESTRATEGIA DE RENTABILIDAD
 
-* Item 1
-* Item 2
-* Item 3
-  * Item 3a
-  * Item 3b
-  * Item 3c 
+	Informar a los alumnos de USIL sobre los profesores a matricular, calificar a los docentes  y realizar comentarios  sobre sus experiencias. 
