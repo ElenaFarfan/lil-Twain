@@ -1,68 +1,41 @@
 #  LIL TWAIN
 
-El proyecto **LIL TWAIN** es una pagina web que es diseñada para, poder facilitar el proceso de matricula de una universidad, 
+ **LIL TWAIN** es una red social para ayudar a otros estudiants en el proceso de maricula con sus experiencias vividas sobre los docente de cada curso. 
 
- #### I) MISION
- 
- 	Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad 
+**¡Con facilidad se adquiere lo preciso para la vida. (Frases de Séneca) !**
 
- #### I) PROPUESTA DE VALOR 
- 
-	 Disminuir la incertidumbre de saber la estrategia de enseñanza de cada docente en los procesos de matricula. 
+![](http://padresonones.es/userfiles/image/locos%20por%20las%20maquinas/salir%20de%20las%20redes%20sociales.jpg "Red social")
 
- #### III)PÚBLICO OBJETIVO 
- 
-	  El proyecto lIL TWAIN Esta dirigido especificamente a estudiantes de la Universidad San Ignacio de Loyola
-	  
-#### IV ) ESTRATEGIA DE RENTABILIDAD
-
-	Informar a los alumnos de USIL sobre los profesores a matricular, calificar a los docentes y realizar comentarios sobre sus experiencias. 
-	
- #### III) INTEGRANTES:
-*
-      1.- FARFAN CESPEDES, NELLY ELENA
-      2.- JAVIER FLORES, KENYO
-      3.- HERMOZA QUIÑONES, SERGIO ALONSO
-      4.- PONCE DE LEON ROJAS, CHRISTIAN ARTURO MAC
-      5.- TOVAR MAÑUECO, MARLENI
-
-# CLOUDSCHOOL 
-
-CloudSchool es una intranet para supervisar,adquirir,solicitar y evidenciar sobre el proceso academico de los alumnos y desarrollo estudiantil; comunicacion activa entre los padres o apoderados con la entidad estudiantil.
-
-**¡TODO DESDE LA COMODIDAD DE TU HOGAR!**
-
-![](https://decoraciondesala.com/wp-content/uploads/2015/01/como-decorar-tu-sala-de-estudio3.jpg "Comodidad en el hogar") 
 
 ## Público objetivo:
 
-Colegios privados y publicos / Ministerio de Educacion.
+ El proyecto LIL TWAIN Esta dirigido especificamente a estudiantes de la Universidad San Ignacio de Loyola
 
-![](http://3.bp.blogspot.com/-lp0QrgO57mc/UZZTe_1vH_I/AAAAAAAAADo/r2k2Js7syGA/s1600/colegio.jpg "Colegios Publicos y Privados")
+![](http://internacional.usil.edu.pe/sites/default/files/noticia-17a.jpg "Estudianes de la Universidad USIL")
+
 
 ## Estrategia de Rentabilizacion:
 
-1. Promueve la interaccion de padres hacia la institucion educativa.
-2. Promueve metodos de estudio e-learning y b-learning.
-3. Base de datos confiable y biblioteca virtual.
-4. Aplicacion movil con alertas.
-5. Facil de entender para los apoderados como el alumnado.
-6. Soporte tecnico (Ayuda las 24 hr).
+1. Promueve la interaccion de alumnos.
+2. Rapidez de un proceso. 
+3. Facil de entender para los estudiantes de la Universidad San Ignacio de Loyola
 
-![](http://mamadigital.mx/blog/wp-content/uploads/2016/06/elearning-video-chat.jpg "Metodos de estudio E-Learning/B-Learning")
+![](https://i.ytimg.com/vi/MhQfNxa9Lx8/maxresdefault.jpg "Proceso de matricula") 
+
 
 ## Vision:
-
-Ser una empresa que desarrolle y optimice el sistema de educacion, permitiendo ganar la confianza y recomendacion de los usuarios con el tiempo.
+ 
+Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad
 
 ![](http://www.zocalo.com.mx/images/uploads/articles/147059934241.jpg "Vision de nuestra Intranet")
 
 ## Integrantes:
 
-1. Calderon Marcelo.
-2. Garcia Pozo Kevin Antonio.
-3. Julca Salvador Fray Billy.
-4. Ordinola Bocanegra Alvaro.
+1.- FARFAN CESPEDES, NELLY ELENA
+2.- JAVIER FLORES, KENYO
+3.- HERMOZA QUIÑONES, SERGIO ALONSO
+4.- PONCE DE LEON ROJAS, CHRISTIAN ARTURO MAC
+ 5.- TOVAR MAÑUECO, MARLENI
 
 **¡EDUCACION MIRANDO HACIA EL FUTURO!**
 
