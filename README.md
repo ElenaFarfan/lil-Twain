@@ -39,5 +39,5 @@ Ser la mejor pagina web en disminuir y analizar a calidad de profesores para est
 
 **¡ CON ESFUERZO Y PERSEVERANCIA PODRÀS ALCANZAR TUS METAS!**
 
-![]( http://cdn.history.com/sites/2/2015/05/list-8-things-mark-twain-1870-3353702.jpg "Inspiracion del Proyecto")
+![]( http://celebrityquotes.ru/images/mark_twain.jpg "Inspiracion del Proyecto")
 
