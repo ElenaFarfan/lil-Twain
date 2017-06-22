@@ -27,30 +27,17 @@
  
 Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad
 
-![](http://www.zocalo.com.mx/images/uploads/articles/147059934241.jpg "Vision de nuestra Intranet")
+![](http://noticias.universia.es/net/images/educacion/-/-b/-be/-becas-oea-master-distancia-unir.png "VISION  Lil Twain ")
 
 ## Integrantes:
 
-1.- FARFAN CESPEDES, NELLY ELENA
-2.- JAVIER FLORES, KENYO
-3.- HERMOZA QUIÑONES, SERGIO ALONSO
-4.- PONCE DE LEON ROJAS, CHRISTIAN ARTURO MAC
- 5.- TOVAR MAÑUECO, MARLENI
+     1.- FARFAN CESPEDES, NELLY ELENA
+     2.- JAVIER FLORES, KENYO
+     3.- HERMOZA QUIÑONES, SERGIO ALONSO
+     4.- PONCE DE LEON ROJAS, CHRISTIAN ARTURO MAC
+     5.- TOVAR MAÑUECO, MARLENI
 
-**¡EDUCACION MIRANDO HACIA EL FUTURO!**
+**¡ CON ESFUERZO Y PERSEVERANCIA PODRÀS ALCANZAR TUS METAS!**
 
-![](http://archivo.eluniversal.com.mx/img/2013/07/Ciu/sep_computadoras-movil.jpg "Alumnos usando la intranet CloudSchool")
+![]( http://cdn.history.com/sites/2/2015/05/list-8-things-mark-twain-1870-3353702.jpg "Inspiracion del Proyecto")
 
-## Red CloudSchool : 
-
-[*Biblioteca Nacional del Perú*](http://www.bnp.gob.pe/index.php/es/ "Biblioteca Nacional del Perú")
-
-[*Cambridge Dictionary*](http://dictionary.cambridge.org/es/ "Diccionario Ingles/Español")
-
-[*Mathway*](https://www.mathway.com/Algebra "Enciclopedia Matematica Virtual")
-
-[*Ministerio de Educacion del Perú*](http://www.minedu.gob.pe "Ministerio de Educacion del Perú")
-
-[*Youtube*](https://www.youtube.com/?hl=es-419&gl=PE "Tutoriales Virtuales")
-
-[*Wikipedia*](https://es.wikipedia.org/wiki/Wikipedia:Portada "Enciclopedia Virtual")
