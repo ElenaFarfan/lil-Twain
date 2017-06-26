@@ -43,7 +43,8 @@ body {
 #buscador{
     margin:10px;
     border-color:#FFFFFF;  
-    background-color:#9FA8DA;    
+    background-color:#9FA8DA;   
+color:black;	
     padding:5px;
 
 }
@@ -110,6 +111,7 @@ li.active a, li.active a:hover {
         border-radius:3px;
         box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
         background:#fff;
+
         
         height:200px;
     } 
@@ -125,30 +127,31 @@ li.active a, li.active a:hover {
     width:30%;
     text-align:center;
     border:1px solid red;
-
+	color:black;
 }
 #buscador #derecha{
     float:right;
     width:30%;
     text-align:center;
-     border:1px solid red;
-
+    border:1px solid red;
+	color:black;
 }
 #buscador #centro{
     margin-left:31%;
     margin-right:31%;
     text-align:center;
-     border:1px solid red;
+    border:1px solid red;	 
+	color:black;
+	 
 
 }
 
 /*----- Perfil -----*/
 #perfil{
     width: 600px;
-    margin: auto;
-    height: 400px;
-    border: 3px solid red;
-    background-color:#1E90FF;
+    margin: auto; 
+	
+        
 }
 #contenido #imagen{
     text-align:center;
@@ -159,8 +162,9 @@ li.active a, li.active a:hover {
     margin-left:70px;
 }
 #contenido #b1{
-    float:right;
-    margin-right:20%;
+	text-align:center;
+	margin-left:40%;
+	margin-right:0%;
 }
 
 /*-----Buscar por profesor -----*/
@@ -174,13 +178,13 @@ li.active a, li.active a:hover {
     width:40%;
     border:2px solid black;
     height:20px;
-    webkit-border-radius: 10px;
 }
 table{
   border: black 2px solid;
 }
-#contenido{
+#cont{
     margin-top:10px;
+	background-color: #8FBC8F;
 }
 td{
     width:2%;
@@ -288,19 +292,154 @@ header{
 
 /*-------usuario Contraseña----*/
 
-#contra{
-	margin:auto;
-	margin-left:30%;
-	margin-right:30%;
-	padding-top:80px;
-	text-align:center;
-	
-		
+
+
+#contIS{
+  margin: 0px;
+  padding: 0px;
+  
+
 }
-.editar{
-	width:40%;
-	bolder:radius 1px:
+
+h1{
+  color: #fff;
+  text-align: center;
+  font-family: Arial;
+  font-weight: normal;
+  margin: 2em auto 0px;
 }
+.ventana{
+  background: #13202c;
+  width: 900px;
+  height: 540px;
+  margin: 50px auto;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  position: relative;
+  padding-top: 35px;
+}
+
+.ventana:before{
+  content: "";
+  background: #3e4a53;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  z-index: 9999;
+  width: 50px;
+  height: 50px;
+}
+.ventana:after{
+  content: "";
+  background: #ecf0f1;
+  width: 900px;
+  height: 88px;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+}
+
+.inicio{
+  position: relative;  
+}
+
+
+
+.direct{
+  width: 800px;
+  height: 340px;
+  background: #1abc9d;
+  margin: 0px auto;
+  padding-top: 80px;
+}
+
+.form{
+  width: 400px;
+  height: 230px;
+  background: #edeff1;
+  margin: 0px auto;
+  padding-top: 20px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+input[type="text"]{
+  display: block;
+  width: 309px;
+  height: 35px;
+  margin: 15px auto;
+  background: #fff;
+  border: 0px;
+  padding: 5px;
+  font-size: 16px;
+   border: 2px solid #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+input[type="password"]{
+  display: block;
+  width: 309px;
+  height: 35px;
+  margin: 15px auto;
+  background: #fff;
+  border: 0px;
+  padding: 5px;
+  font-size: 16px;
+   border: 2px solid #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+input[type="text"]:focus{
+  border: 2px solid #1abc9d
+}
+
+input[type="submit"]{
+  display: block;
+  background: #1abc9d;
+  width: 314px;
+  padding: 12px;
+  cursor: pointer;
+  color: #fff;
+  border: 0px;
+  margin: auto;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+}
+
+input[type="submit"]:hover{
+  background: #09cca6
+}
+
+a{
+  text-align: center;
+  font-family: Arial;
+  color: black;
+  display: block;
+  margin: 15px auto;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+a:hover{
+  color:green;
+}
+
 
 
 

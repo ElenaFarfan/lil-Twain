@@ -1,27 +1,43 @@
 #  LIL TWAIN
 
-El proyecto **LIL TWAIN** es una pagina web que es diseñada para, poder facilitar el proceso de matricula de una universidad, 
+ **LIL TWAIN** es una red social para ayudar a otros estudiants en el proceso de maricula con sus experiencias vividas sobre los docente de cada curso. 
 
- #### I) MISION
+**¡Con facilidad se adquiere lo preciso para la vida. (Frases de Séneca) !**
+
+![](http://padresonones.es/userfiles/image/locos%20por%20las%20maquinas/salir%20de%20las%20redes%20sociales.jpg "Red social")
+
+
+## Público objetivo:
+
+ El proyecto LIL TWAIN Esta dirigido especificamente a estudiantes de la Universidad San Ignacio de Loyola
+
+![](http://internacional.usil.edu.pe/sites/default/files/noticia-17a.jpg "Estudianes de la Universidad USIL")
+
+
+## Estrategia de Rentabilizacion:
+
+1. Promueve la interaccion de alumnos.
+2. Rapidez de un proceso. 
+3. Facil de entender para los estudiantes de la Universidad San Ignacio de Loyola
+
+![](https://i.ytimg.com/vi/MhQfNxa9Lx8/maxresdefault.jpg "Proceso de matricula") 
+
+
+## Vision:
  
- 	Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad 
+Ser la mejor pagina web en disminuir y analizar a calidad de profesores para estudiantes de una universidad
 
- #### I) PROPUESTA DE VALOR 
- 
-	 Disminuir la incertidumbre de saber la estrategia de enseñanza de cada docente en los procesos de matricula. 
+![](http://noticias.universia.es/net/images/educacion/-/-b/-be/-becas-oea-master-distancia-unir.png "VISION  Lil Twain ")
 
- #### III)PÚBLICO OBJETIVO 
- 
-	  El proyecto lIL TWAIN Esta dirigido especificamente a estudiantes de la Universidad San Ignacio de Loyola
-	  
-#### IV ) ESTRATEGIA DE RENTABILIDAD
+## Integrantes:
 
-	Informar a los alumnos de USIL sobre los profesores a matricular, calificar a los docentes y realizar comentarios sobre sus experiencias. 
-	
- #### III) INTEGRANTES:
-*
-      1.- FARFAN CESPEDES, NELLY ELENA
-      2.- JAVIER FLORES, KENYO
-      3.- HERMOZA QUIÑONES, SERGIO ALONSO
-      4.- PONCE DE LEON ROJAS, CHRISTIAN ARTURO MAC
-      5.- TOVAR MAÑUECO, MARLENI
+     1.- FARFAN CESPEDES, NELLY ELENA
+     2.- JAVIER FLORES, KENYO
+     3.- HERMOZA QUIÑONES, SERGIO ALONSO
+     4.- PONCE DE LEON ROJAS, CHRISTIAN ARTURO MAC
+     5.- TOVAR MAÑUECO, MARLENI
+
+**¡ CON ESFUERZO Y PERSEVERANCIA PODRÀS ALCANZAR TUS METAS!**
+
+![]( http://celebrityquotes.ru/images/mark_twain.jpg "Inspiracion del Proyecto")
+
