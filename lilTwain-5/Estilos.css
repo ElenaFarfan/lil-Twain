@@ -13,9 +13,10 @@ body {
 /*------main page-------*/
 #contenedorPagPrincipal {
     background-image: url("Imagenes/fondo2.jpg");
-    margin:auto;
+    
 }
 #alumno {
+    margin-top:20px;
     border-radius: 25px;
     float: left;
     width: 20%;
@@ -42,11 +43,15 @@ body {
         }
 #buscador{
     margin:10px;
-    border-color:#FFFFFF;  
-    background-color:#9FA8DA;   
-color:black;	
+    border-color:#688A08;  
+    background-color:#21610B;   
+    color:black;	
     padding:5px;
 
+}
+#editarPerfil{
+    margin-left:50px;
+    margin-bottom:20px;
 }
 
 #porCurso {
@@ -126,21 +131,20 @@ li.active a, li.active a:hover {
     float:left;
     width:30%;
     text-align:center;
-    border:1px solid red;
+
 	color:black;
 }
 #buscador #derecha{
     float:right;
     width:30%;
     text-align:center;
-    border:1px solid red;
-	color:black;
+   	color:black;
 }
 #buscador #centro{
     margin-left:31%;
     margin-right:31%;
     text-align:center;
-    border:1px solid red;	 
+    
 	color:black;
 	 
 
@@ -153,8 +157,15 @@ li.active a, li.active a:hover {
 	
         
 }
-#contenido #imagen{
-    text-align:center;
+#imagenPerfil {
+    text-align: center;
+}
+#iP1{
+    border-radius: 25px;
+    margin-top:50px;
+    height:200px;
+    width:200px;
+}
 
 }
 #contenido #cuerpo{
@@ -165,6 +176,9 @@ li.active a, li.active a:hover {
 	text-align:center;
 	margin-left:40%;
 	margin-right:0%;
+}
+#contenido #editar{
+    margin-left:10px;
 }
 
 /*-----Buscar por profesor -----*/
