@@ -11,15 +11,16 @@ body {
 	overflow-y:scroll;
 }
 /*------main page-------*/
-#contenedor {
-    background-image: Imagenes/fondo1.jpg;
+#contenedorPagPrincipal {
+    background-image: url("Imagenes/fondo2.jpg");
     margin:auto;
 }
 #alumno {
+    border-radius: 25px;
     float: left;
     width: 20%;
     margin: 3%;
-    background-color: palevioletred;
+    background-image:url("Imagenes/fondo1.jpg");
     padding-left:5px;
     
 }
