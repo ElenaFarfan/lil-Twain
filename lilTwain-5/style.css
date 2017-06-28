@@ -1,0 +1,55 @@
+body {
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: Roboto, Helvetica, Arial, serif;
+  background: url(http://www.hdwallsource.com/img/2014/10/blurred-36379-37207-hd-wallpapers.jpg);
+  background-size: cover;
+}
+
+header img {
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  width: 200px;
+  border: 6px solid #fff;
+}
+
+aside {
+  border-top: 0px solid #26A69A;
+  border-bottom: 1px solid #00695C;
+  margin: 0 auto;
+  display: block;
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/3a/1f/02/3a1f02c10700daa80655a302c5a27acf.jpg);
+    background-size: cover;
+    background-size: cover;
+  border-top: 5px solid #26A69A;
+  border-radius: 25px;
+  height: 700px;
+  width: 900px;
+}
+
+header {
+  text-align: center;
+}
+
+
+.calificar {
+	font-size: 0;
+	display: inline-block;
+	margin:auto;
+}
+.calificar a {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 32px;
+	font-size: 2rem;
+	
+	color: blue;
+}
+
+.calificar:hover a {
+	color: rgb(39, 130, 228);
+}
+.calificar > a:hover ~ a {
+	color: lime;
+}
