@@ -289,16 +289,16 @@ input[type="Password"]{
 }
 /*------main page-------*/
 #contenedorPagPrincipal {
-    background-image: url("Imagenes/fondo2.jpg");
+    
     
 }
 #alumno {
-    margin-top:20px;
-    border-radius: 25px;
+    padding-top:20px;
+    border-radius: 10px;
     float: left;
     width: 20%;
     margin: 3%;
-    background-image:url("Imagenes/fondo1.jpg");
+    background-image: url("Imagenes/fondo2.jpg");
     padding-left:5px;
     
 }
@@ -319,9 +319,9 @@ input[type="Password"]{
             margin-bottom:100px;
         }
 #buscador{
-    margin:10px;
-    border-color:#688A08;  
-    background-color:#21610B;   
+    margin:10px; 
+    background-color:#0A2A0A;
+    border-radius: 5px;
     color:black;	
     padding:5px;
 
@@ -354,7 +354,7 @@ input[type="Password"]{
 
         }
 #contenidoDeCursos{
-    margin:10px;
+    margin:0px 10px 50px 10px;
 }
 /*----- Tab Links -----*/
 /* Clearfix */
@@ -408,8 +408,7 @@ li.active a, li.active a:hover {
     float:left;
     width:30%;
     text-align:center;
-
-	color:black;
+    border-right-color:#64FE2E;
 }
 #buscador #derecha{
     float:right;
