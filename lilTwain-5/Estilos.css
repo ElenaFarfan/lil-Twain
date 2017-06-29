@@ -11,6 +11,7 @@ body{
     height:100%;
     background-color:white;
 	zoom:80%;
+	 background: #1abc9d;
 }
 [role="button"]{
     cursor:pointer;
