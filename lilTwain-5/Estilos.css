@@ -459,15 +459,43 @@ li.active a, li.active a:hover {
 }
 
 /*-----Buscar por profesor -----*/
+#buscarXprofe{
+    margin-left:7%;
+    margin-right:7%;
+    padding:7%;
+    
+}
+#nombre{
+    width:50%;
+    border:3px solid black;
+    height:25px;
+}
+table{
+  border: black 2px solid;
+}
+td{
+    width:5%;
+    margin:10px;
+}
+tr{
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+}
+#xd{
+background-color:#1c2660;
+}
+body >div:last-child{
+display:none;
+}
+
 table {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-    font-size: 12px; 
-	margin: 45px;     
+    font-size: 15px; 
+	margin: auto;     
 	width: 480px; 
 	text-align: left;    
 	border-collapse: collapse; 
 }
-
 th {     
 	font-size: 13px;     
 	font-weight: normal;     
@@ -477,15 +505,19 @@ th {
 	 border-bottom: 1px solid #fff; 
 	 color: #039; 
  }
-
 td {    
-	padding: 8px;     
+	padding: 30px;     
 	background: #e8edff;     
 	border-bottom: 1px solid #fff;
     color: #669;    
 	border-top: 1px solid transparent; 
+	
 }
 tr:hover td { 
 	background: #d0dafd; 
 	color: #339; 
 }
+
+
+
+
