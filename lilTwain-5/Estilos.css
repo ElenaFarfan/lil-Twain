@@ -326,6 +326,13 @@ input[type="Password"]{
     padding:5px;
 
 }
+div img {
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  width: 200px;
+  border: 6px 
+}
 #editarPerfil{
     margin-left:50px;
     margin-bottom:20px;
