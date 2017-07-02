@@ -1,64 +1,175 @@
 <!DOCTYPE html>
-<html>
-<head >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscador por curso</title>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="estilosBuscar.css">
 
-    <title></title>
-    <link href="Estilos.css" rel="stylesheet" />
+   
 </head>
 <body>
-    <form id="form1" runat="server">
-    <nav id="buscarXprofe">
-	<p id="Nombresss"> BUSCAR POR CURSO </p>
-		<div class="box">
-			<div class="container-1">
-				<span class="icon"><i class="fa fa-search"></i></span>
-				<input type="search" id="search" placeholder="Buscar..." />
-			</div>
-		</div>
-			<br/>
-			<br/>
-			<br/>
-			<br/>
-        <section id="cont">
-            <table >
-				<tr> 
-					<th>CURSO</th>
-					<th> NOMBRE </th> 
-					<th>APELLIDO</th> 
-					<th>CORREO </th>
-					<th>PUNTUACIÒN</th>
-				</tr>
-                <tr>
-				<td><a href="PerfilDocente.html">PROGRAMACIÓN MULTIPLATAFORMA</a></td>
-				<td> JONATHAN JORGE</td> 
-				<td>CHAVEZ ESPINOZA</td>
-				<td>jonathan.chavez@usil.pe</td>
-				<td>5</td>
-			</tr>
-			<tr>
-				<td>ENGLISH IIV</td>
-				<td> EDWIN ALBERTO</td> 
-				<td>LLASACA CONCHA</td>
-				<td>edwin.llasaca@usil.pe</td>
-				<td>3</td>
-			</tr>
-			<tr>
-				<td>TALLER DE SOFTWARE IV</td>
-				<td> JONATHAN JORGE</td> 
-				<td>CHAVEZ ESPINOZA</td>
-				<td>jonathan.chavez@usil.pe</td>
-				<td>5</td>
-			</tr>
-				<tr>
-				<td>CÀLCULO DE VARIAS VARIABLES </td>
-				<td> CARLOS ALBERTO</td> 
-				<td>CALDERON AREVALO</td>
-				<td>carlos.calderon@usil.pe</td>
-				<td>5</td>
-			</tr>
+    <header>
+        <div class="header-top">
+            <div class="navegacion">
+                <input type="search" placeholder="Buscar curso" id="inputBusqueda">
+            </div>
+        </div>
+        <div class="search" id="search">
+            <table class="search-table" id="searchTable">
+                <thead>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#contenedorBP2">TALLER DE SOFTWARE IV</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#contenedorBP1">PROGRAMACIÓN MULTIPLATAFORMA</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">ENGLISH IV</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">MARKETING</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">CÁLCULO DE VARIAS VARIABLES</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">BUSINESS PROCESS MANAGEMENT</a></td>
+                    </tr>
+
+                </tbody>
             </table>
-        </section >
-    </nav>
-    </form>
+        </div>
+    </header>
+
+    <div id="contenedorBP1" class="efecto">
+        <table class="tabla">
+            <tr>
+                <td>
+                    Nombre
+                </td>
+                <td>
+                    Apellido
+                </td>
+                <td>
+                    Cursos
+                </td>
+                <td>
+                    Correo
+                </td>
+                <td>
+                    Puntuación promedio
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    JONATHAN JORGE
+                </td>
+                <td>
+                    CHAVEZ ESPINOZA
+                </td>
+                <td>
+                    PROGRAMACIÓN MULTIPLATAFORMA
+                </td>
+                <td>
+                    jonathan.chavez@usil.pe
+                </td>
+                <td>
+                    5
+                </td>
+            </tr>
+
+            <tr>
+                    <td>
+                        LUIS JONATHAN
+                    </td>
+                    <td>
+                        ZERPA ZERPA
+                    </td>
+                    <td>
+                        PROGRAMACIÓN MULTIPLATAFORMA
+                    </td>
+                    <td>
+                        luis.zerpa@usil.pe
+                    </td>
+                    <td>
+                        5
+                    </td>
+                </tr>
+        </table>
+<div class="boton">
+     <a  href="index.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">bolver a buscar</a>
+</div>
+        
+    </div>
+    <div id="contenedorBP2" class="efecto">
+        <table class="tabla">
+            <tr>
+                <td>
+                    Nombre
+                </td>
+                <td>
+                    Apellido
+                </td>
+                <td>
+                    Cursos
+                </td>
+                <td>
+                    Correo
+                </td>
+                <td>
+                    Puntuación promedio
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    JONATHAN JORGE
+                </td>
+                <td>
+                    CHAVEZ ESPINOZA
+                </td>
+                <td>
+                    TALLER DE SOFTWARE IV
+                </td>
+                <td>
+                    jonathan.chavez@usil.pe
+                </td>
+                <td>
+                    5
+                </td>
+            </tr>
+            <tr>
+                    <td>
+                        MOISES
+                    </td>
+                    <td>
+                        EGUES MARTINEZ
+                    </td>
+                    <td>
+                        TALLER DE SOFTWARE IV
+                    </td>
+                    <td>
+                        moises.egues@usil.pe
+                    </td>
+                    <td>
+                        5
+                    </td>
+                </tr>
+        </table>
+        <div class="boton">
+     <a  href="index.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">bolver a buscar</a>
+</div>
+    </div>
+
+      
+   
+
+    <script src="js/buscador.js"></script>
 </body>
 </html>
