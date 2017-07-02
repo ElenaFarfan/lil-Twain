@@ -13,16 +13,15 @@ body{
 .efecto{
 	 overflow:hidden;
     position:relative;
-    font-size:3em;
-    width:100%;
     height:0;
     -webkit-transition: all 500ms ease-out;
     -moz-transition:all 500ms ease-out;
     transition: all 500ms ease-out;
+	
 
 }
 .efecto:target{
-	 height:85%;
+	 height:100%;
 	
 }
 [role="button"]{
@@ -83,7 +82,8 @@ input[type="search"]{
 }
 
 .search-table{
-	width: 100%;
+	width: 1000%;
+	
 }
 
 tbody tr td{
@@ -128,13 +128,27 @@ tbody tr td a:hover{
 /* -----------tabla contenido---------------*/
 
  .tabla{
-    width: 80%;
+    width: 30%;
     margin: auto;
-    font-size: 20px;
-    border: 2px solid black;
-    background-color: green;
-    margin-top: 20%; 
+    font-size: 15px;
+    border: 2px ;
+    margin-top: 15%; 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
 
+}
+th {     
+	font-size: 20px;     
+	font-weight: normal;     
+	padding: 8px;     
+	background: #b9c9fe;
+	 border-top: 4px solid #aabcfe;    
+	 border-bottom: 1px solid #fff; 
+	 color: #039; 
+ }
+
+tr:hover td { 
+	background: #d0dafd; 
+	color: #339; 
 }
 
 
@@ -143,9 +157,12 @@ tbody tr td a:hover{
 
 }
 
-.tabla tr td{
-	width: 40px;
-    padding:2px;
+.tabla td{
+	padding: 20px;     
+	background: #e8edff;     
+	border-bottom: 1px solid #fff;
+    color: #669;    
+	border-top: 1px solid transparent;
 }
 
 
@@ -154,7 +171,7 @@ tbody tr td a:hover{
 	font-size: 20px;
 	text-decoration:none; 
 	border-radius:2px;
-	background-color: green;
+	background-color: #b9c9fe;
 	width: 30%;
 	margin-top: 2px;
 	margin-left: 30%; 
