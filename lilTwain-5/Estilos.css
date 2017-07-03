@@ -310,6 +310,7 @@ input[type="Password"]{
     padding:5%;
 
 }
+
 #profile {
             height:200px;
             width:200px;
@@ -399,12 +400,13 @@ li.active a, li.active a:hover {
  
     /*----- Content of Tabs -----*/
 .tab-content {
-        padding:15px;
-        border-radius:3px;
+        padding:20px;
+        border-radius:4px;
         box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
-        background:#fff;
-
-        
+        background:#D0F1EA;
+		color: black;
+        font-family: cursive;
+		font-size:20px;
         height:200px;
     } 
 .tab {
@@ -426,16 +428,6 @@ li.active a, li.active a:hover {
     text-align:center;
    	color:black;
 }
-#buscador #centro{
-    margin-left:31%;
-    margin-right:31%;
-    text-align:center;
-    
-	color:black;
-	 
-
-}
-
 /*----- Perfil -----*/
 #perfil{
     width: 600px;
