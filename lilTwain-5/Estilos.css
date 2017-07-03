@@ -418,13 +418,13 @@ li.active a, li.active a:hover {
 
 #buscador #izquierda{
     float:left;
-    width:30%;
+    width:50%;
     text-align:center;
     border-right-color:#64FE2E;
 }
 #buscador #derecha{
     float:right;
-    width:30%;
+    width:50%;
     text-align:center;
    	color:black;
 }
