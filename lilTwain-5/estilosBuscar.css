@@ -5,7 +5,9 @@ html {
 }
 body{
 	width: 100%;
-	height:100%;
+	height:100%;	
+	background-image: url('https://cdn.pixabay.com/photo/2014/04/02/17/04/green-307835_960_720.png');
+	background-size:cover;
    
 
 }
