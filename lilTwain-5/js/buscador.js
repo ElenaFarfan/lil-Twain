@@ -25,5 +25,4 @@ $("#inputBusqueda").keyup(function(){
         
     }
    
-
 })
