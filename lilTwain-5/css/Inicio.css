@@ -1,19 +1,20 @@
-body{
-	font: oblique bold 120% cursive;
+
+html{      
+    width:100%;
+    height:100%;  	
 }
-#cuerpo_termi{
-	background-color: #7BE7C0;
+body{
+    color:white;
+    font-family: Open Sans;
+	margin:auto;
+    background-color:white;
+	zoom:100%;
+	 background: #1abc9d;
 }
 #cuerpo{
-	background-color: #ECEBEB;
+	background-color: #1abc9d;
 }
 /** INICIO HEADER DE PAGINA PRINCIPAL **/
-#fondo{
-	position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
-}
 .cabeza{
 	background: #2c3e50;
 	opacity: 0.9;
@@ -53,27 +54,10 @@ body{
 	margin-bottom: 50px;
 	opacity:0.8;
 	color:#fff;
-	font-size: 16px;
-}
-
-.formulario h1{
-	text-align: center;
-}
-.formulario a{
-	color:#fff;
-}
-.formulario input{
-	background-color:black;
-	opacity:0.9;
-	color:#fff;
-}
-
-.formulario input:hover{
-	background-color:#FF5733;
-	opacity: 0.4;
 	font-size: 20px;
-
 }
+
+
 .formulario input:active{
 	font-size: 16px;
 	color:#fff;
@@ -187,10 +171,6 @@ body{
 	text-align: center;
 }
 
-/**FIN CENTRO DE PAGINA PRINCIPAL **/
-
-/**INICIO CENTRO DE PAGINA SERVICIO **/
-
 .datos{
 	margin-top: 30px;
 }
@@ -223,47 +203,6 @@ body{
 .fuente{
 	font-family: arial;
 }
-/**FIN CENTRO DE PAGINA SERVICIO **/
-/**INICIO CENTRO PAGINA FILTROS **/
-.extra{
-	margin-left: 15px;
-}
-/** FIN CENTRO PAGINA FILTROS **/
-
-/**INICIO CENTRO PAGINA INFORMACION INDIVIDUAL **/
-
-.personal{
-	padding-left: 15px;
-}
-.descri{
-	padding-left: 30px;
-	font-family: arial;
-}
-#myCarousel2{
-	background-color: #EDB086;
-	margin-top: 10px;
-	width: 70%;
-	padding: 10px 10px;
-}
-.indicarru .active.left  { left: -10%;             }
-.indicarru .active.right { left: 10%;              }
-.indicarru .next         { left: 10%               }
-.indicarru .prev         { left: -10%              }
-.estrellas{
-	text-align: center;
-}
-.danie{
-	margin-left: 85px;
-}
-.estrellas label{
-	font-family: arial;
-	color: #BD5122;
-}
-
-/** FIN CENTRO INFORMACION INDIVIDUAL **/
-
-
-/**INICIO FOOTER DE PAGINA PRINCIPAL **/
 
 .pie{
 	background:#1D485B;
@@ -276,7 +215,4 @@ body{
 	border-bottom: 2px solid #36899A;
 	color: #fff;
 }
-
-/**FIN FOOTER DE PAGINA PRINCIPAL **/
-/**Restaurar contraseña**/
 

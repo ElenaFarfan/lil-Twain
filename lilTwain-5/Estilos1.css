@@ -1,0 +1,572 @@
+/*------Default, Describcion y Usuario y Contraseña-------*/
+html{      
+    width:100%;
+    height:100%;  	
+}
+body{
+    color:white;
+    font-family: Open Sans;
+	margin:auto;
+    width:100%;
+    height:100%;
+    background-color:white;
+	zoom:80%;
+	 background: #1abc9d;
+}
+[role="button"]{
+    cursor:pointer;
+}
+#Cabecera{
+	height:10%;
+	color:black;
+	background:white;	
+}
+#Cabecera  img {
+	width:80px;
+	height:80px;
+	margin-left:10%;
+	margin-top:0.5%;
+}
+#Cabecera button{
+	float:right;
+	background-color: rgb(52, 209, 110);
+    color: white;
+    border-radius:4px;
+    padding:10px 1.2rem;
+    border:none;
+	margin-right:10%;
+	margin-top:25px;
+}
+
+.efecto{
+    overflow:hidden;
+    position:relative;
+    font-size:3em;
+    width:100%;
+    height:0;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition:all 500ms ease-out;
+    transition: all 500ms ease-out;
+}
+#Contenedor{
+    position:absolute;
+    width:100%;
+    height:85%;
+    font-size:3em;
+    overflow:hidden;
+	background-image: url('Imagenes/fondo1.jpg');
+	background-size:cover;
+	text-align:center;
+	background-position:100% 100%;
+	margin:0 0;
+}
+#Contenedor > img{
+	padding-top:13px;
+}
+#Contenedor p{
+	margin:0 0;
+	font-size:20px;
+	font-family:Comic Sans ms;
+}
+#Contenedor h1{
+	margin:0 0;
+	color:white;
+	font-size:1.5em;
+	font-family:Comic Sans ms;
+}
+#Contenedor > a > img{
+	padding-top:25px;
+}	
+#Expli{
+width:100%;
+background-color:#56bc8a;	
+bottom:0px;
+z-index:0;
+position:absolute;
+}
+#Expli > a{
+	color: white;
+	background-color:#56bc8a;
+	cursor:pointer;
+	width:100%;
+	text-decoration: none;
+	margin:0 0;
+	border:0 0;
+	padding:0 auto;
+	position:relative center;
+}
+#Explicacion{
+    background-color:#56bc8a;
+    color:white;  
+	text-align:center;
+}
+#Explicacion > h2{
+    margin:0 0;
+	color:white;
+	font-size:1.5em;
+	font-family:Comic Sans ms;
+}
+#Explicacion > img{
+	padding-right:10%;
+	padding-top:3%;
+	float:right;
+}
+#Texto > p{
+	margin-top:4%;
+	width:50%;
+	height:40%;
+	font-family:Comic Sans ms;
+	font-size:30px;
+}
+#Invitacion {
+	margin-top:6%;
+}
+#Invitacion > button{
+	background-color: rgb(52, 209, 110);
+	color:white;
+	border-radius:4px;
+	font-size: 18px;
+	padding:10px 1.2rem;
+	border:none;
+}
+#Invitacion > p{
+	margin: 0 auto;
+	font-family:Comic Sans ms;
+	font-size:30px;
+}
+ #IniciarSesion{
+    background-image: url('Imagenes/pizarra.jpg');
+	background-size:cover;
+	background-position: auto;
+    color:white; 
+	
+}
+
+#IniciarSesion h1{
+  color: #fff;
+  text-align: center;
+  font-family:Comic Sans ms;
+  margin: 0 0;
+  font-size:10px;
+}
+
+
+.Ventana{
+  background: #13202c;
+  width: 50%;
+  height: 80%;
+  margin: 5% auto;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  position: relative;
+  padding-top: 35px;
+}
+
+.Ventana:before{
+  content: "";
+  background: #3e4a53;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  z-index: 9999;
+  width: 70px;
+  height: 70px;
+}
+.Ventana:after{
+  content: "";
+  background: #ecf0f1;
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  bottom: 0px;
+  border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+}
+#Pantalla{
+  width: 90%;
+  height: 78%;
+  background: #1abc9d;
+  margin: 0 auto;
+}
+#Pantalla > h1{
+	margin:0 0;
+	color:white;
+	font-size:1em;
+	font-family:Comic Sans ms;
+}
+#Login{
+  width: 70%;
+  height: 78%;
+  background: #edeff1;
+  margin-bottom: 0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 2%;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  text-align:center;
+}
+#Login > img{
+	margin:-5% auto;
+}
+input[type="Usuario"]{
+  display: block;
+  width: 50%;
+  height: 10%;
+  margin: 0 auto;
+  background: #fff;
+  font-size: 16px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+input[type="Password"]{
+  display: block;
+  width: 50%;
+  height: 10%;
+  margin-top:3%;
+  margin-left:auto;
+  margin-right:auto;
+  background: #fff;
+  font-size: 16px;
+  border: 2px solid #fff;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+#Login > button{
+  background: #1abc9d;
+  width: 50%;
+  height: 10%;
+  cursor: pointer;
+  color: #fff;
+  border: 0px;
+  margin:  0 auto;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-size: 17px;
+  transition: all 0.3s ease;
+ }
+ #Login > a{
+  text-align: center;
+  font-family: Arial;
+  color: black;
+  display: block;
+  margin: 15px auto;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+#Contenedor3{
+    background-color:white;
+    color:#00bdff;  	
+}
+.efecto:target{
+    height:85%;
+}
+#Pie{
+	background-color: #2e3c54;
+    text-align:center;
+    color:white;
+	width:100%;
+	height:5%;
+	bottom:0px;
+	z-index:0;
+	position:absolute;
+	
+}
+#Pie > h2{
+	margin:7px auto;
+	font-family:Comic Sans ms;
+}
+
+
+/*------main page-------*/
+#contenedorPagPrincipal {
+    
+    
+}
+
+#alumno {
+    padding-top:20px;
+    border-radius: 10px;
+    float: left;
+    width: 20%;
+    margin: 3%;
+    padding-left:5px;
+    
+}
+#cuerpo{
+    margin-left:25%; 
+    padding:5%;
+
+}
+
+#profile {
+            height:200px;
+            width:200px;
+            margin-left:30px;
+            margin-top:20px;
+            box-shadow: 0px 30px 0px rgba(0,0,0,.1);
+        }
+#apodo{
+            margin-left:50px;
+            margin-bottom:0px;
+        }
+#buscador{
+    margin:10px; 
+    background-color:#1abc9d;
+    border-radius: 5px;
+    color:black;	
+    padding:5px;
+
+}
+div img {
+  border-radius: 50%;
+  margin: 20px auto;
+  display: block;
+  width: 200px;
+  border: 6px 
+}
+#editarPerfil{
+    margin-left:50px;
+    margin-bottom:20px;
+}
+
+#porCurso {
+            height:200px;
+            width:200px;
+            margin-left:100px;
+            
+        }
+#porProfesor{
+            height:200px;
+            width:200px;
+            margin-left:300px;
+        }
+#history {
+            height:200px;
+            width:200px;
+            margin-left:300px;
+        }
+.tabs {
+            width:100%;
+            display:inline-block;
+            
+
+        }
+#contenidoDeCursos{
+    margin:0px 10px 50px 10px;
+}
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+    display: block;
+    clear: both;
+    content: '';
+} 
+.tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    } 
+.tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        } 
+.tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        } 
+li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+.tab-content {
+        padding:20px;
+        border-radius:4px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#D0F1EA;
+		color: black;
+        font-family: cursive;
+		font-size:20px;
+        height:200px;
+    } 
+.tab {
+            display:none;
+        } 
+.tab.active {
+            display:block;
+        }
+
+#buscador #izquierda{
+    float:left;
+    width:50%;
+    text-align:center;
+    border-right-color:#64FE2E;
+}
+#buscador #derecha{
+    float:right;
+    width:50%;
+    text-align:center;
+   	color:black;
+}
+/*----- Perfil -----*/
+#perfil{
+    width: 600px;
+    margin: auto; 
+	
+        
+}
+#imagenPerfil {
+    text-align: center;
+}
+#iP1{
+    border-radius: 25px;
+    margin-top:50px;
+    height:200px;
+    width:200px;
+}
+
+}
+#contenido #cuerpo{
+    margin-top:40px;
+    margin-left:70px;
+}
+#contenido #b1{
+	text-align:center;
+	margin-left:40%;
+	margin-right:0%;
+}
+#contenido #editar{
+    margin-left:10px;
+}
+
+/*-----Buscar por profesor -----*/
+#buscarXprofe{
+    margin-left:3%;
+    margin-right:3%;
+    padding:3%;
+    
+}
+#Nombresss{
+	text-align:center;
+	font-family:Fertigo;
+	color: white;
+	font-size:30px;
+}
+td{
+    width:5%;
+    margin:10px;
+}
+
+tr{
+    border-bottom:2px solid black;
+    border-top:2px solid black;
+}
+#xd{
+background-color:#1c2660;
+}
+body >div:last-child{
+display:none;
+}
+
+table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-size: 15px; 
+	margin: auto;     
+	width: 480px; 
+	text-align: left;    
+	border-collapse: collapse; 
+}
+th {     
+	font-size: 20px;     
+	font-weight: normal;     
+	padding: 8px;     
+	background: #b9c9fe;
+	 border-top: 4px solid #aabcfe;    
+	 border-bottom: 1px solid #fff; 
+	 color: #039; 
+ }
+td {    
+	padding: 30px;     
+	background: #e8edff;     
+	border-bottom: 1px solid #fff;
+    color: #669;    
+	border-top: 1px solid transparent; 
+	
+}
+tr:hover td { 
+	background: #d0dafd; 
+	color: #339; 
+}
+
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+.container-1 input#search{
+  width: 300px;
+  height: 50px;
+  background: #e8edff;
+  border: none;
+  font-size: 14pt;
+  float: left;
+  color: black;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:20px;
+}
