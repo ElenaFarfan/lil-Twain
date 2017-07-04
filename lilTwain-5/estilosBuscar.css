@@ -134,7 +134,15 @@ tbody tr td a:hover{
 /* -----------tabla contenido---------------*/
 
 
-
+th {     
+	font-size: 20px;     
+	font-weight: normal;     
+	padding: 8px;     
+	background: #b9c9fe;
+	 border-top: 4px solid #aabcfe;    
+	 border-bottom: 1px solid #fff; 
+	 color: #039; 
+ }
 
  .tabla{
     width: 80%;
