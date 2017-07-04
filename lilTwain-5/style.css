@@ -2,7 +2,8 @@ body {
   padding: 20px;
   box-sizing: border-box;
   font-family: Roboto, Helvetica, Arial, serif;
-  background: #1abc9d;
+  background-image: url("Imagenes/thumb2-blue-brick-backgrounds-texture-wall.jpg");
+  
 }
 
 header img {
@@ -32,12 +33,12 @@ header {
 #Nombre{
 	font-family: cursive;
 	font-size: 16px;
-	color: black;
+	color: white;
 }
 #no{
 	font-family:fantasy;
 	font-size:14;
-	color: #0B4C5F;
+	color: #d0dfe8;
 }
 #imagen1{
 	text-align:center;
@@ -53,15 +54,14 @@ header {
 	display: inline-block;
 	font-size: 32px;
 	font-size: 2rem;
-	
-	color: blue;
+	color: #109ced;
 }
 
 .calificar:hover a {
-	color: rgb(39, 130, 228);
+	color: yellow;
 }
 .calificar > a:hover ~ a {
-	color: lime;
+	color: #10efb0;
 }
 .button {
   padding: 15px 25px;
@@ -78,10 +78,10 @@ header {
   color:
 }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color:#b7e4ff}
 
 .button:active {
-  background-color: #3e8e41;
+  background-color: #5db0e2;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
