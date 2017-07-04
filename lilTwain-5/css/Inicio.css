@@ -14,22 +14,19 @@ body{
 #cuerpo{
 	background-color: #1abc9d;
 }
-/** INICIO HEADER DE PAGINA PRINCIPAL **/
 .cabeza{
 	background: #2c3e50;
-	opacity: 0.9;
 }
 .navbar{
 	border:none;
 	background:none;
 }
-
 #navbar-1 a{
 	font-size: 20px;
-	color: #fff;
+	color: white;
 }
 #navbar-1{
-	margin-top: 6px;
+	margin-top: 50px;
 }
 
 #navbar-1 li:active{
@@ -37,14 +34,10 @@ body{
 }
 #navbar-1 li:hover{
 	background-color: #808CB2;
-	border-right: 1px solid transparent;
+	border-right: 4px solid transparent;
 	border-bottom: 0;
-	border-radius: 20px;
+	border-radius: 50px;
 }
-
-/**FIN HEADER DE PAGINA PRINCIPAL **/
-
-/**INICIO CENTRO DE PAGINA INICIAL **/
 
 .formulario{
 	background-color:black;
@@ -99,110 +92,7 @@ body{
 .carousel-inner .next         { left: 33%               }
 .carousel-inner .prev         { left: -33%              }
 
-#princi{
-	text-align: center;
-	color: #B5D3CB;
-	border-bottom: 2px solid gray;
-}
 
-/**FIN CENTRO DE PAGINA INICIAL **/
-
-/**INICIO CENTRO DE PAGINA PRINCIPAL **/
-
-.drop{
-	width: 80%;
-	padding-left: 110px;
-	padding-right: -50px;
-}
-
-.centro-prin{
-	margin-top: 30px;
-}
-#cuerpo>h1{
-	cursor: default;
-  	position: inherit;
-  	top: 30px;
-  	left: 0;
-  	right: 0;
-  	bottom: 0;
-  	margin: auto;
-  	display: block;
-  
-  	-webkit-animation: bounce .3s ease infinite alternate;
-  
-  	font-family: 'Erica One', cursive;
-  	font-size: 40px;
-  	text-align: center;
-  	text-shadow: 0 1px 0 #CCC,
-               0 2px 0 #CCC,
-               0 3px 0 #CCC,
-               0 4px 0 #CCC,
-               0 5px 0 #CCC,
-               0 6px 0 transparent,
-               0 7px 0 transparent,
-               0 8px 0 transparent,
-               0 9px 0 transparent,
-               0 10px 10px rgba(0, 0, 0, .6);
-
-}
-
-#patro{
-	color:#1A464A;
-	border-bottom: 2px solid gray;
-	text-align: center;
-}
-.izquierda{
-	padding-top: 40px;
-	padding-left: 50px;
-	text-align: center;
-
-}
-
-.izquierda h2{
-	color:#173D4F;
-}
-.derecha{
-	color:#173D4F;
-	text-align: center;
-	padding-top: 70px;
-	font-size: 18px;
-}
-.card{
-	text-align: center;
-}
-
-.datos{
-	margin-top: 30px;
-}
-.estaciones{
-	margin-bottom: 10px;
-	background-color:#ECE3E3;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border: 2px inset #E5E0E0;
-    border-radius:8px;
-}
-.ayuda{
-	border-right: 1px gray solid;
-}
-.estacion{
-	background-color:#ECE3E3;
-	border-radius: 8px;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-top:10px;
-	margin-bottom: 10px;
-}
-.hola{
-	background-color: #F6F2F2;
-	padding-left: 10px;
-	padding-right: 10px;
-	margin-top: 30px;
-	border: 2px inset #E5E0E0;
-}
-.fuente{
-	font-family: arial;
-}
 
 .pie{
 	background:#1D485B;
