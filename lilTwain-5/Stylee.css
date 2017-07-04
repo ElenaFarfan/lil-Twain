@@ -1,0 +1,282 @@
+body{
+	font: oblique bold 120% cursive;
+}
+#cuerpo_termi{
+	background-color: #7BE7C0;
+}
+#cuerpo{
+	background-color: #ECEBEB;
+}
+/** INICIO HEADER DE PAGINA PRINCIPAL **/
+#fondo{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.cabeza{
+	background: #2c3e50;
+	opacity: 0.9;
+}
+.navbar{
+	border:none;
+	background:none;
+}
+
+#navbar-1 a{
+	font-size: 20px;
+	color: #fff;
+}
+#navbar-1{
+	margin-top: 6px;
+}
+
+#navbar-1 li:active{
+	background-color: #fff;
+}
+#navbar-1 li:hover{
+	background-color: #808CB2;
+	border-right: 1px solid transparent;
+	border-bottom: 0;
+	border-radius: 20px;
+}
+
+/**FIN HEADER DE PAGINA PRINCIPAL **/
+
+/**INICIO CENTRO DE PAGINA INICIAL **/
+
+.formulario{
+	background-color:black;
+	border-radius: 20px;
+	padding: 2px 50px 50px 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	opacity:0.8;
+	color:#fff;
+	font-size: 16px;
+}
+
+.formulario h1{
+	text-align: center;
+}
+.formulario a{
+	color:#fff;
+}
+.formulario input{
+	background-color:black;
+	opacity:0.9;
+	color:#fff;
+}
+
+.formulario input:hover{
+	background-color:#FF5733;
+	opacity: 0.4;
+	font-size: 20px;
+
+}
+.formulario input:active{
+	font-size: 16px;
+	color:#fff;
+}
+.btn{
+	background-color:#FF5733;
+	opacity: 0.9;
+	border:none;
+	color:#fff;
+	font-size: 16px;
+}
+.medio{
+	color:#fff;
+	font-size: 20px;
+	padding-top: 380px;
+	padding-bottom: 100px;
+}
+.medio2{
+	color:#fff;
+	font-size: 20px;
+	padding-top: 530px;
+	padding-bottom: 100px;
+}
+.medio2 strong{
+	color: #f40909;
+}
+
+.medio strong{
+	color: #f40909;
+}
+#myCarousel{
+	background-color: #2c3e50;
+	margin-top: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+.carousel-inner .active.left  { left: -33%;             }
+.carousel-inner .active.right { left: 33%;              }
+.carousel-inner .next         { left: 33%               }
+.carousel-inner .prev         { left: -33%              }
+
+#princi{
+	text-align: center;
+	color: #B5D3CB;
+	border-bottom: 2px solid gray;
+}
+
+/**FIN CENTRO DE PAGINA INICIAL **/
+
+/**INICIO CENTRO DE PAGINA PRINCIPAL **/
+
+.drop{
+	width: 80%;
+	padding-left: 110px;
+	padding-right: -50px;
+}
+
+.centro-prin{
+	margin-top: 30px;
+}
+#cuerpo>h1{
+	cursor: default;
+  	position: inherit;
+  	top: 30px;
+  	left: 0;
+  	right: 0;
+  	bottom: 0;
+  	margin: auto;
+  	display: block;
+  
+  	-webkit-animation: bounce .3s ease infinite alternate;
+  
+  	font-family: 'Erica One', cursive;
+  	font-size: 40px;
+  	text-align: center;
+  	text-shadow: 0 1px 0 #CCC,
+               0 2px 0 #CCC,
+               0 3px 0 #CCC,
+               0 4px 0 #CCC,
+               0 5px 0 #CCC,
+               0 6px 0 transparent,
+               0 7px 0 transparent,
+               0 8px 0 transparent,
+               0 9px 0 transparent,
+               0 10px 10px rgba(0, 0, 0, .6);
+
+}
+
+#patro{
+	color:#1A464A;
+	border-bottom: 2px solid gray;
+	text-align: center;
+}
+.izquierda{
+	padding-top: 40px;
+	padding-left: 50px;
+	text-align: center;
+
+}
+
+.izquierda h2{
+	color:#173D4F;
+}
+.derecha{
+	color:#173D4F;
+	text-align: center;
+	padding-top: 70px;
+	font-size: 18px;
+}
+.card{
+	text-align: center;
+}
+
+/**FIN CENTRO DE PAGINA PRINCIPAL **/
+
+/**INICIO CENTRO DE PAGINA SERVICIO **/
+
+.datos{
+	margin-top: 30px;
+}
+.estaciones{
+	margin-bottom: 10px;
+	background-color:#ECE3E3;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px inset #E5E0E0;
+    border-radius:8px;
+}
+.ayuda{
+	border-right: 1px gray solid;
+}
+.estacion{
+	background-color:#ECE3E3;
+	border-radius: 8px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-top:10px;
+	margin-bottom: 10px;
+}
+.hola{
+	background-color: #F6F2F2;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 30px;
+	border: 2px inset #E5E0E0;
+}
+.fuente{
+	font-family: arial;
+}
+/**FIN CENTRO DE PAGINA SERVICIO **/
+/**INICIO CENTRO PAGINA FILTROS **/
+.extra{
+	margin-left: 15px;
+}
+/** FIN CENTRO PAGINA FILTROS **/
+
+/**INICIO CENTRO PAGINA INFORMACION INDIVIDUAL **/
+
+.personal{
+	padding-left: 15px;
+}
+.descri{
+	padding-left: 30px;
+	font-family: arial;
+}
+#myCarousel2{
+	background-color: #EDB086;
+	margin-top: 10px;
+	width: 70%;
+	padding: 10px 10px;
+}
+.indicarru .active.left  { left: -10%;             }
+.indicarru .active.right { left: 10%;              }
+.indicarru .next         { left: 10%               }
+.indicarru .prev         { left: -10%              }
+.estrellas{
+	text-align: center;
+}
+.danie{
+	margin-left: 85px;
+}
+.estrellas label{
+	font-family: arial;
+	color: #BD5122;
+}
+
+/** FIN CENTRO INFORMACION INDIVIDUAL **/
+
+
+/**INICIO FOOTER DE PAGINA PRINCIPAL **/
+
+.pie{
+	background:#1D485B;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.pie h2{
+	border-bottom: 2px solid #36899A;
+	color: #fff;
+}
+
+/**FIN FOOTER DE PAGINA PRINCIPAL **/
+/**Restaurar contraseña**/
+
