@@ -7,13 +7,27 @@
     <script src="js/jquery.dataTables.min.js"></script>
     <link rel="stylesheet" href="estilosBuscar.css">
 
+    <script languaje="Javascript">   
+<!--  
+document.write('<style type="text/css">div.cp_oculta{display: none;}</style>');  
+function MostrarOcultar(capa)  
+{  
+    if (document.getElementById)  
+    {  
+        var aux = document.getElementById(capa).style;  
+        aux.display = aux.display? "":"block";  
+    }  
+}  
    
+//-->  
+</script>
+
 </head>
 <body>
     <header>
         <div class="header-top">
             <div class="navegacion">
-                <input type="search" placeholder="Buscar profesor" id="inputBusqueda">
+                <input type="search" placeholder="Ingrese los datos del docente..." id="inputBusqueda">
             </div>
         </div>
         <div class="search" id="search">
@@ -25,43 +39,43 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a href="#contenedorBP1">JONATHAN JORGE, CHAVEZ ESPINOZA</a></td>
+                        <td><a href="#contenedorBP1" href= "javascript:MostrarOcultar('search')" target=_blank>JONATHAN JORGE, CHAVEZ ESPINOZA</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP2"> MOISES, EGUES MARTINEZ</a></td>
+                        <td><a href="#contenedorBP2" href= "javascript:MostrarOcultar('search')" target=_blank> MOISES, EGUES MARTINEZ</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP3">LUIS JONATHAN, ZERPA ZERPA</a></td>
+                        <td><a href="#contenedorBP3" href= "javascript:MostrarOcultar('search')" target=_blank>LUIS JONATHAN, ZERPA ZERPA</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP4"> DORA ANGELICA, VASQUEZ ANTICONA </a></td>
+                        <td><a href="#contenedorBP4" href= "javascript:MostrarOcultar('search')" target=_blank> DORA ANGELICA, VASQUEZ ANTICONA </a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP5">EDWIN ALBERTO, LLASACA CONCHA </a></td>
+                        <td><a href="#contenedorBP5" href= "javascript:MostrarOcultar('search')" target=_blank>EDWIN ALBERTO, LLASACA CONCHA </a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP6">JAIME RODOLFO, BRISEÑO MORALES </a></td>
+                        <td><a href="#contenedorBP6" href= "javascript:MostrarOcultar('search')" target=_blank>JAIME RODOLFO, BRISEÑO MORALES </a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP7">KARINA JANETH, GARCIA BRAVO </a></td>
+                        <td><a href="#contenedorBP7" href= "javascript:MostrarOcultar('search')" target=_blank>KARINA JANETH, GARCIA BRAVO </a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP8">PATRICIA AMERICA, NUÑEZ MONRROY </a></td>
+                        <td><a href="#contenedorBP8" href= "javascript:MostrarOcultar('search')" target=_blank>PATRICIA AMERICA, NUÑEZ MONRROY </a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP9">EDGAR OVIDIO, SANTISTEBAN LEON </a></td>
+                        <td><a href="#contenedorBP9" href= "javascript:MostrarOcultar('search')" target=_blank>EDGAR OVIDIO, SANTISTEBAN LEON </a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP10">CARLOS ALBERTO, CALDERON AREVALO </a></td>
+                        <td><a href="#contenedorBP10" href= "javascript:MostrarOcultar('search')" target=_blank>CARLOS ALBERTO, CALDERON AREVALO </a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP11">ANA MARIA, ZELA APAZA</a></td>
+                        <td><a href="#contenedorBP11" href= "javascript:MostrarOcultar('search')" target=_blank>ANA MARIA, ZELA APAZA</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP12">GISELLA YRENE, FIGUEROA TEJADA  </a></td>
+                        <td><a href="#contenedorBP12" href= "javascript:MostrarOcultar('search')" target=_blank>GISELLA YRENE, FIGUEROA TEJADA  </a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP13">KATIA, PRADA BACA  </a></td>
+                        <td><a href="#contenedorBP13" href= "javascript:MostrarOcultar('search')" target=_blank>KATIA, PRADA BACA  </a></td>
                     </tr>
                 </tbody>
             </table>

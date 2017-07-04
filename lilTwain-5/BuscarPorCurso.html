@@ -7,40 +7,57 @@
     <script src="js/jquery.dataTables.min.js"></script>
     <link rel="stylesheet" href="estilosBuscar.css">
 
+
+ <script languaje="Javascript">   
+<!--  
+document.write('<style type="text/css">div.cp_oculta{display: none;}</style>');  
+function MostrarOcultar(capa)  
+{  
+    if (document.getElementById)  
+    {  
+        var aux = document.getElementById(capa).style;  
+        aux.display = aux.display? "":"block";  
+    }  
+}  
+   
+//-->  
+</script>
+
+
    
 </head>
 <body>
     <header>
         <div class="header-top">
             <div class="navegacion">
-                <input type="search" placeholder="Buscar curso" id="inputBusqueda">
+                <input type="search" autofocus  placeholder="Ingrese el curso que desee buscar..." id="inputBusqueda">
             </div>
         </div>
-        <div class="search" id="search">
+        <div class="search" id="search" >
             <table class="search-table" id="searchTable">
                 <thead>
                     <tr>
                         <td></td>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody >
                     <tr>
-                        <td><a href="#contenedorBP2">TALLER DE SOFTWARE IV</a></td>
+                        <td><a href="#contenedorBP2" href= "javascript:MostrarOcultar('search')" target=_blank>TALLER DE SOFTWARE IV </a></td>            
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP1">PROGRAMACIÓN MULTIPLATAFORMA</a></td>
+                        <td><a href="#contenedorBP1" href= "javascript:MostrarOcultar('search')" target=_blank >PROGRAMACIÓN MULTIPLATAFORMA</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP3">ENGLISH IV</a></td>
+                        <td><a href="#contenedorBP3" href= "javascript:MostrarOcultar('search')" target=_blank>ENGLISH IV</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP4">MARKETING</a></td>
+                        <td><a href="#contenedorBP4" href= "javascript:MostrarOcultar('search')" target=_blank >MARKETING</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP5">CÁLCULO DE VARIAS VARIABLES</a></td>
+                        <td><a href="#contenedorBP5" href= "javascript:MostrarOcultar('search')" target=_blank >CÁLCULO DE VARIAS VARIABLES</a></td>
                     </tr>
                     <tr>
-                        <td><a href="#contenedorBP6">BUSINESS PROCESS MANAGEMENT</a></td>
+                        <td><a href="#contenedorBP6" href= "javascript:MostrarOcultar('search')" target=_blank >BUSINESS PROCESS MANAGEMENT</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -50,18 +67,18 @@
     <div id="contenedorBP1" class="efecto">
         <table class="tabla">
             <tr>
-                <th>
+                <td>
                     Nombre
-                </th>
-                <th>
+                </td>
+                <td>
                     Apellido
-                </th>
-                <th>
+                </td>
+                <td>
                     Correo
-                </th>
-                <th>
+                </td>
+                <td>
                     Puntuación promedio
-                </th>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -94,7 +111,7 @@
                 </tr>
         </table>
 <div class="boton">
-     <a  href="index.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
+     <a  href="MainPage.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
 </div>
         
     </div>
@@ -116,7 +133,7 @@
             </tr>
             <tr>
                 <td>
-                    JONATHAN JORGE
+                    <a href="DocenteChavez.html"> JONATHAN JORGE</a>
                 </td>
                 <td>
                     CHAVEZ ESPINOZA
@@ -130,13 +147,10 @@
             </tr>
             <tr>
                     <td>
-                        MOISES
+                      <a href="#">MOISES</a>  
                     </td>
                     <td>
                         EGUES MARTINEZ
-                    </td>
-                    <td>
-                        TALLER DE SOFTWARE IV
                     </td>
                     <td>
                         moises.egues@usil.pe
@@ -147,7 +161,7 @@
                 </tr>
         </table>
         <div class="boton">
-     <a  href="index.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
+     <a  href="MainPage.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
 </div>
     </div>
 
@@ -198,7 +212,7 @@
                 </tr>
         </table>
         <div class="boton">
-     <a  href="index.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
+     <a  href="MainPage.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
 </div>
     </div>
 
@@ -262,7 +276,7 @@
                 </tr>
         </table>
         <div class="boton">
-     <a  href="index.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
+     <a  href="MainPage.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
 </div>
     </div>
 
@@ -326,7 +340,7 @@
                 </tr>
         </table>
         <div class="boton">
-     <a  href="index.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
+     <a  href="MainPage.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
 </div>
     </div>
 	<div id="contenedorBP6" class="efecto">
@@ -376,7 +390,7 @@
         </table>
         </table>
         <div class="boton">
-     <a  href="index.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
+     <a  href="MainPage.html">Atras</a>&nbsp;&nbsp;&nbsp;|<a  href="BuscarPorCurso.html">volver a buscar</a>
 </div>
     </div>
     <script src="js/buscador.js"></script>

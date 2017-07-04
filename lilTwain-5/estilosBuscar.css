@@ -6,26 +6,13 @@ html {
 body{
 	width: 100%;
 	height:100%;	
-	background-image: url('https://cdn.pixabay.com/photo/2014/04/02/17/04/green-307835_960_720.png');
+	background-image: url('Imagenes/fondoBuscar.png');
 	background-size:cover;
    
 
 }
 
-.efecto{
-	 overflow:hidden;
-    position:relative;
-    height:0;
-    -webkit-transition: all 500ms ease-out;
-    -moz-transition:all 500ms ease-out;
-    transition: all 500ms ease-out;
-	
 
-}
-.efecto:target{
-	 height:100%;
-	
-}
 [role="button"]{
     cursor:pointer;
 }
@@ -52,7 +39,7 @@ header{
 
 .header-top{
 	width: 100%;
-	background: #1abc9d;
+	margin-top: 5%;
 	
 
 	
@@ -69,6 +56,8 @@ input[type="search"]{
 	padding: 10px;
 	padding-right: 35px;
 	border: none;
+	width: 40%;
+	height: 10%;
 }
 
 .search{
@@ -101,7 +90,7 @@ tbody tr td a{
 	height: 100%;
 	padding: 20px 0;
 	padding-left: 20px;
-	border: 2px solid #fff;
+	
 }
 
 tbody tr td a:hover{
@@ -127,28 +116,39 @@ tbody tr td a:hover{
 	display: none;
 }
 
+/*-------------evento-------------*/
+.efecto{
+	 overflow:hidden;
+    position:relative;
+    height:0;
+    -webkit-transition: all 500ms ease-out;
+    -moz-transition:all 500ms ease-out;
+    transition: all 500ms ease-out;
+	
+
+}
+.efecto:target{
+	 height:100%;
+	
+}
 /* -----------tabla contenido---------------*/
 
+
+
+
  .tabla{
-    width: 30%;
+    width: 80%;
+    max-height: 200px;
     margin: auto;
     font-size: 15px;
     border: 2px ;
-    margin-top: 15%; 
+    margin-top: 12%; 
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; 
 
 }
-th {     
-	font-size: 20px;     
-	font-weight: normal;     
-	padding: 8px;     
-	background: #b9c9fe;
-	 border-top: 4px solid #aabcfe;    
-	 border-bottom: 1px solid #fff; 
-	 color: #039; 
- }
 
-tr:hover td { 
+
+ tr:hover td { 
 	background: #d0dafd; 
 	color: #339; 
 }
@@ -159,14 +159,14 @@ tr:hover td {
 
 }
 
-.tabla td{
+.tabla tr td{
 	padding: 20px;     
 	background: #e8edff;     
 	border-bottom: 1px solid #fff;
     color: #669;    
 	border-top: 1px solid transparent;
+	width: 25%;
 }
-
 
 .boton{
 	text-align: center;
