@@ -9,10 +9,9 @@ body{
 	margin:auto;
     background-color:white;
 	zoom:100%;
-	 background: #1abc9d;
 }
 #cuerpo{
-	background-color: #1abc9d;
+    background-color:aliceblue;
 }
 .cabeza{
 	background: #2c3e50;
