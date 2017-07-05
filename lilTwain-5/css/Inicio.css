@@ -38,6 +38,88 @@ body{
 	border-bottom: 0;
 	border-radius: 50px;
 }
+#logoMP{
+    height:150px;
+    width:400px;
+    float:right;
+    margin-top:15px;
+    margin-right:340px;
+    border-radius:5px;
+}
+
+#superMP{
+    background-color:#088A68;
+}
+#BuscadorMP{
+    border-radius:5px;
+    margin-top:10px;
+}
+
+#izquierdaMP{
+    float:left;
+    width:30%;
+}
+#derechaMP{
+    float:left;
+    width:30%;
+    margin-left:50px;
+}
+#CentroMP{
+    float:left;
+    width:30%;
+    margin-left:60px;
+    margin-top:5px;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+    display: block;
+    clear: both;
+    content: '';
+} 
+.tab-links li {
+        margin:0px 5px;
+        float:left;
+        list-style:none;
+    } 
+.tab-links a {
+            padding:9px 15px;
+            display:inline-block;
+            border-radius:3px 3px 0px 0px;
+            background:#7FB5DA;
+            font-size:16px;
+            font-weight:600;
+            color:#4c4c4c;
+            transition:all linear 0.15s;
+        } 
+.tab-links a:hover {
+            background:#a7cce5;
+            text-decoration:none;
+        } 
+li.active a, li.active a:hover {
+        background:#fff;
+        color:#4c4c4c;
+    }
+ 
+    /*----- Content of Tabs -----*/
+.tab-content {
+        padding:20px;
+        border-radius:4px;
+        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
+        background:#D0F1EA;
+		color: black;
+        font-family: cursive;
+		font-size:20px;
+        height:200px;
+
+    } 
+.tab {
+            display:none;
+        } 
+.tab.active {
+            display:block;
+        }
 
 .formulario{
 	background-color:black;

@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>LIL-TWAIN</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/inicio.css">
+	<link rel="stylesheet" href="css/Inicio.css">
 </head>
 <body id="cuerpo">
 	
@@ -20,16 +20,21 @@
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
-							<img alt="User Pic"    height="70" src="http://babyinfoforyou.com/wp-content/uploads/2014/10/avatar-300x300.png"
-									alt="Foto de perfil del usuario" id="profile"/> <h4  id="apodo">Maria Elena <br/>  ( Muñeca)  </h4>
+
+							<img height="200" width="200"  src="Imagenes/avatar.png" style="margin-right:5px; margin-top:3px;" />
+
+							
 									<a href="Perfil.html" id="editarPerfil">Ver Perfil</a>
 						</div>
 						<div class="collapse navbar-collapse  col-md-6 col-sm-10" id="navbar-1">
 							<ul class="nav navbar-nav">
 								<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Principal</a></li>
-								<li><a href="iniciar_sesion.html">Cerrar Cesion</a></li>
+								<li><a href="index.html">Cerrar Cesion</a></li>
 							</ul>
 						</div>
+                        <div>
+                            <img src="Imagenes/usil2.jpg" id="logoMP"/>
+                        </div>
 					</div>
 
 				</div>
@@ -37,41 +42,67 @@
 		</header>
 	</div><br><br>
 	<div class="container fuente">
-		<div class="col-md-3 derecha pull-left">
+		
+        
+        <aside id="contenidoDeCursos">
+            <div class="tabs">
+                <ul class="tab-links">
+                    <li class="active"><a href="#tab1">ciclo 2017-01</a></li>
+                    <li class="active"><a href="#tab2">ciclo 2017-00</a></li>
+                    <li class="active"><a href="#tab3">ciclo 2016-02</a></li>
+                    <li class="active"><a href="#tab4">ciclo 2016-01</a></li>
+                </ul>
 
-			<div class="">
-				<div class="col-md-6 imagenes">
-					<div>
-						<a href="BuscarPorCurso.html"><br/><img src="https://www.iconfinder.com/data/icons/school-subjects/256/Literature-512.png" 
-				   width="100" />
-                     Buscar por Curso</a>
-					</div>
-				</div>
-				<div class="col-md-6 imagenes">
-					<div>
-						<a href="BuscarPorProfesor.html"><img src="https://cdn.iconscout.com/public/images/icon/premium/png-128/office-employee-man-books-knowlwdge-company-informantion-literature-39caaeba31ea5d39-128x128.png"   width="100"/>
-                    Buscar por profesor</a>
-					</div>
-				</div>
-				<div class="imagenes card">
-					<div>
-					<a href="BuscarPorProfesor.html"> <img width="100px" src="imagenes/book.png" alt="" /> Historial </a>
-					</div>
-				</div>
-			</div>
+                <div class="tab-content">
+                    <div id="tab1" class="tab active" class="efecto">
 
+                        <p><a href="DocenteChavez.html">CHAVEZ ESPINOZA, JONATHAN JORGE (TALLER DE SOFTWARE)</a></p>
+                        <p><a href="DoceneGisela.html">FIGUEROA TEJADA GISELLA YRENE (BUISNESS PROCESS MANAGEMENT)</a></p>
+                        <p><a href="DocenteCalderon.html">CALDERON AREVALO CARLOS ALBERTO (CALCULO DE VARIAS VARIABLES)</a></p>
+                        <p><a href="DocenteZerpa.html">LUIS JONATHAN ZERPA ZERPA (PROGRAMACION MULTIPLATAFORMA)</a></p>
+
+                    </div>
+
+                    <div id="tab2" class="tab" class="efecto">
+                        <p>ciclo 2017-00 content goes here!</p>
+                        <p>...</p>
+                    </div>
+
+                    <div id="tab3" class="tab">
+                        <p>ciclo 2016-02 content goes here!</p>
+                        <p>...</p>
+                    </div>
+
+                    <div id="tab4" class="tab">
+                        <p>ciclo 2016-00 content goes here!</p>
+                        <p>...</p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <div id="superMP">
+            <div id="BuscadorMP">
+                <section id="izquierdaMP">
+                    <a href="BuscarPorCurso.html">
+                        <br /><img src="Imagenes/cursos.png" width="200" Height="200" /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buscar por curso
+                    </a>
+                </section>
+
+                <section id="CentroMP">
+                    <a href="BuscarPorProfesor.html">
+                        <br /><img src="Imagenes/book.png" width="190" Height="190" /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ver historial
+                    </a>
+                </section>
+
+                <section id="derechaMP">
+                    <a href="BuscarPorProfesor.html">
+                        <br /><img src="Imagenes/profesor.png" width="190" Height="190" /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buscar por docente
+                    </a>
+                </section>
+            </div>
+        </div>
 		</div>
-		<div class="col-md-6 ">
-			<form action="servicio.html" class="centro-prin fuente">
-            <img src="imagenes/presidenta-ejecutiva-docentes-sir.jpg" width="500" height="400"  />
-		</form>
-		</div>
-		<div class="col-md-3 izquierda">
-			<h4>MEMES</h4>
-			<img  width="400px" src="imagenes/images.jpg" class="img-responsive" alt=""><br>
-			<img  width="400px" src="imagenes/formas-divertidas-de-copiar-en-un-examen.jpg" class="img-responsive" alt=""><br>
-		</div>
-	</div>
 	<br/><br/><br/><br/>
 	<div id="myCarousel" class="carousel slide">
   
